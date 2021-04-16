@@ -1,6 +1,8 @@
 # Weather-Dashboard
 
  ## Description 
+ This is a weather application allowing you to lookup the current weather in your city. After typing in a city and clicking search, you are presented with all the usual weather data.
+ When the page loads you are shown temperature, humidity, wind speed, and the UV Index. Also shown is a five day forecast of what weather is ahead. After searching a city, you can click on one of your recent searches to view that data agin without having to type it in!
 
 
  ## Getting Started:
