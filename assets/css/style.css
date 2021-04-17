@@ -1,23 +1,57 @@
+body {
+    background-color:rgb(243, 243, 243);
+}
+
 .titleContainer {
     display: flex;
     justify-content: center;
+    background-color:rgb(180, 180, 180);
 }
 
 .titleContainer h1 {
     padding:20px 10px;
-    border: 3px solid rgb(0, 217, 255);
+    border: 3px solid rgb(47, 224, 255);
     border-radius: 10px;
+    background-color: rgb(0, 208, 255);
     margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid rgb(126, 255, 195);
+    background-color: rgb(73, 255, 170);
+}
+
+.card {
+   background-color: rgba(158, 124, 252, 0.658);
+   border: 3px solid rgb(172, 145, 253);
+   border-radius: 10px;
+}
+
+.uv {
+    width: min-content;
+    white-space: nowrap;
 }
 
 .low {
-background-color: green;
+background-color: rgb(111, 238, 111);
 }
 
 .moderate {
-    background-color: yellow;
+    background-color: rgb(247, 247, 107);
 }
 
 .severe {
-    background-color: red;
+    background-color: rgb(253, 95, 95);
 }
