@@ -4,6 +4,9 @@
  This is a weather application allowing you to lookup the current weather in your city. After typing in a city and clicking search, you are presented with all the usual weather data.
  When the page loads you are shown temperature, humidity, wind speed, and the UV Index. Also shown is a five day forecast of what weather is ahead. After searching a city, you can click on one of your recent searches to view that data agin without having to type it in!
 
+ # Preview
+ Here is what the page looks like with saved cities: ![Weather Dashboard](./assets/images/weather.png)
+
 
  ## Getting Started:
 The page is live at https://scottgeleas.github.io/Weather-Dashboard/.
@@ -23,12 +26,12 @@ and have also downloaded Visual Studio Code.
 
  ### Built With:
 ```
+- Open Weather API
 - HTML
 - CSS
 - Javascript
 - jQuery
 - Bootstrap
-- Google Fonts
 - Visual Studio Code
 ```
 
