@@ -8,7 +8,6 @@ let cities = (localStorage.getItem("search")) ? JSON.parse(localStorage.getItem(
 
 savedCities();
 
-
 function savedCities() {
     // create button for each item and append to container
     list.empty()
@@ -20,7 +19,7 @@ function savedCities() {
     }
 };
 
-$(".clickSearch").on("click", function (event) {
+$("body").on("click", ".clickSearch", function (event) {
     renderPage($(event.target).text());
 });
 
